@@ -23,6 +23,8 @@ grid[2].append(["(S)outh", "(W)est"])
 
 #Start location = (0,0) / loc[0] = x ; loc[1] = y
 current_loc = [0,0]
+
+#Main game loop
 while True:
     #Victory coordinates: (2,0)
     if current_loc[0] == 2 and current_loc[1] == 0:
